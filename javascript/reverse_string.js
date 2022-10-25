@@ -1,6 +1,12 @@
 function reverseString(str) {
-  // type your code here
+  let splitString = str.split("")
+  let reverseArray = splitString.reverse()
+  let joinArrary = reverseArray.join("")
+  return joinArrary("hello world")
+
+  // str.split("").reverse().join("")?
 }
+
 
 if (require.main === module) {
   // add your own tests in here
